@@ -8,7 +8,13 @@
 @import url(../blocks/button/_place/button_place-grid.css);
 @import url(../blocks/button/_size/button_size_l.css);
 @import url(../blocks/button/_size/button_size_m.css);
+@import url(../blocks/button/_place/button_preview.css);
+
+@import url(../blocks/author/author.css);
+@import url(../blocks/author/_style/author_style-italic.css );
 
 @import url(../blocks/cards/cards.css);
 
 @import url(../blocks/header/header.css);
+
+@import url(../blocks/two-columns/two-columns.css);
