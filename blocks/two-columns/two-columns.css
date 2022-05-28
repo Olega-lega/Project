@@ -1,0 +1,139 @@
+.columns {
+  width: 1920px;
+  margin-bottom: 67px; 
+}
+
+.two-columns {
+  width: 1170px;
+  min-height: 2761px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 130px;
+}
+
+.two-columns__cars {
+  width: 770px;
+  height: 3053px;
+}
+
+.two-columns__card-car {
+  max-width: 770px;
+  height: 562px;
+  margin-bottom: 45px;
+}
+
+.two-columns__card-img {
+  border-radius: 5px;
+}
+
+.two-columns__cars-text {
+  width: 730px;
+  height: 249px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  transform: perspective(1px) translate(0, -129px);
+}
+
+.two-columns__title_size_l {
+  margin: 0 0 15px 30px;
+  font-family: PT Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 28px;
+  width: 594px;
+  height: 28px;
+}
+.two-columns__subtitle_size_l {
+  margin: 0 0 30px 30px;
+  color: #666;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  width: 614px;
+  height: 72px;
+}
+.two-columns__preview {
+  width: 270px;
+  height: 2761px;
+  display: flex;
+  flex-direction: column;
+}
+.two-columns__preview-card {
+  width: 270px;
+  height: 429px;
+  margin-bottom: 60px;
+}
+.two-columns__preview-image {
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.two-columns__title_size_s {
+  margin: 0 0 8px;
+  width: 270px;
+  height: 23px;
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+}
+.two-columns__subtitle_size_s {
+  width: 270px;
+  height: 75px;
+  font-family: PT Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #666666;
+  margin: 14px 0 21px;
+}
+
+.two-columns__preview-item {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 60px;
+}
+.two-columns__preview-items {
+  position: relative;
+  margin-bottom: 39px;
+}
+
+.two-columns__preview-items:last-child {
+  margin-bottom: 0;
+}
+
+.two-columns__item-img {
+  border-radius: 5px;
+}
+.two-columns__subtitle_size_m {
+  width: 270px;
+  height: 56px;
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 10px 0 20px;
+}
+.two-columns__preview-vidgets {
+  width: 270px;
+  height: 516px;
+  display: block;
+}
+
+.two-columns__preview-vidgets-grid {
+  display: grid;
+  grid-template-columns: 130px 130px;
+  grid-template-rows: 130px 130px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 25px;
+  border-radius: 3px;
+}
+
+.button_preview-icon {
+  margin-right: 10px;
+}

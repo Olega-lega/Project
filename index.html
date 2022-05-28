@@ -7,27 +7,27 @@
   <title>Premium car</title>
   <link rel="stylesheet" href="./page/page.css">
 <div class="page">
-
-  <header class="header"> <!--HEADER-->
+                          <!--HEADER-->
+  <header class="header">
     <nav class="header__menu">
       <div class="header__submenu">
       <h2 class="header__title">Premium</h2>
       <button class="button button_size_m button_place_header">CAR</button>
       </div>
       <ul class="menu-list">
-        <li>
+        <li class="two-columns__preview-item">
           <a class="header__list-link" href="#" target="_blank">Home</a>
         </li>
-        <li>
+        <li class="two-columns__preview-item">
           <a class="header__list-link" href="#" target="_blank">Recipes</a>
         </li>
-        <li>
+        <li class="two-columns__preview-item">
           <a class="header__list-link" href="#" target="_blank">Article</a>
         </li>
-        <li>
+        <li class="two-columns__preview-item">
           <a class="header__list-link" href="#" target="_blank">Contact</a>
         </li>
-        <li>
+        <li class="two-columns__preview-item">
           <a class="header__list-link" href="#" target="_blank">Purchase</a>
         </li>
       </ul>
@@ -36,11 +36,13 @@
       </a>
     </nav>
   </header>
+                          <!--HEADER-->
+                          <!--CARDS-->
   <body>
-    <section class="cards"> <!--CARDS-->
+    <section class="cards">
       <div class="cards-grid">
         <div class="cards-grid__car">
-          <button class="button button_place-grid button_size_l">Vehicle</button>
+          <button class="button button_size_l button_place-grid">Vehicle</button>
           <div class="cards-grid__text">
            <h3 class="author">Rickie Baroch - June 6, 2019</h3>
            <p class="cards-grid__title">One of Saturn’s largest rings may be newer than anyone</p>
@@ -48,7 +50,7 @@
            <img class="cards-grid__img" src="./image/Bitmap-4.png" alt="car">
         </div>
         <div class="cards-grid__car">
-          <button class="button button_place-grid button_size_l">Vehicle</button>
+          <button class="button button_size_l button_place-grid">Vehicle</button>
           <div class="cards-grid__text">
            <h3 class="author">Rickie Baroch - June 6, 2019</h3>
            <p class="cards-grid__title">One of Saturn’s largest rings may be newer than anyone</p>
@@ -56,7 +58,7 @@
            <img class="cards-grid__img" src="./image/Bitmap-1.png" alt="car">
         </div>
         <div class="cards-grid__car">
-          <button class="button button_place-grid button_size_l">Vehicle</button>
+          <button class="button button_size_l button_place-grid">Vehicle</button>
           <div class="cards-grid__text">
            <h3 class="author">Rickie Baroch - June 6, 2019</h3>
            <p class="cards-grid__title">One of Saturn’s largest rings may be newer than anyone</p>
@@ -64,7 +66,7 @@
            <img class="cards-grid__img" src="./image/Bitmap.png" alt="car">
         </div>
         <div class="cards-grid__car">
-          <button class="button button_place-grid button_size_l">Vehicle</button>
+          <button class="button button_size_l button_place-grid">Vehicle</button>
           <div class="cards-grid__text">
            <h3 class="author">Rickie Baroch - June 6, 2019</h3>
            <p class="cards-grid__title">One of Saturn’s largest rings may be newer than anyone</p>
@@ -72,7 +74,7 @@
            <img class="cards-grid__img" src="./image/Bitmap-3.png" alt="car">
         </div>
         <div class="cards-grid__car">
-          <button class="button button_place-grid button_size_l">Vehicle</button>
+          <button class="button button_size_l button_place-grid">Vehicle</button>
           <div class="cards-grid__text">
            <h3 class="author">Rickie Baroch - June 6, 2019</h3>
            <p class="cards-grid__title">One of Saturn’s largest rings may be newer than anyone</p>
@@ -81,76 +83,102 @@
         </div>
       </div>
     </section>
-
-    <section class="two-columns"> <!--TWO-COLUMNS-->
+                          <!--CARDS-->
+                          <!--TWO-COLUMNS-->
+    <section class="columns">
+      <div class="two-columns">
       <div class="two-columns__cars">
-        <div class="two-columns__card-car">
-          <img src="./image/Bitmap5555.png" alt="car">
-          <div class="two-columns__cars-text">
-            <button class="button button_place-grid button_size_l">Vehicle</button>
-            <h2 class="two-columns__cars-title">One of Saturn’s largest rings may be newer than anyone</h2>
-            <h3 class="author author_style-italic">Rickie Baroch - June 6, 2019</h3>
-            <p class="two-columns__cars-subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-          </div>
           <div class="two-columns__card-car">
-            <img src="./image/Bitmap2222.png" alt="car">
+            <img class="two-columns__card-img" src="./image/Bitmap5555.png" alt="car">
             <div class="two-columns__cars-text">
-              <button class="button button_place-grid button_size_l">Vehicle</button>
-              <h2 class="two-columns__cars-title">One of Saturn’s largest rings may be newer than anyone</h2>
-              <h3 class="author author_style-italic">Rickie Baroch - June 6, 2019</h3>
-              <p class="two-columns__cars-subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+             <button class="button button_size_l button_two-columns_cars">Vehicle</button>
+             <h2 class="two-columns__title_size_l">One of Saturn’s largest rings may be newer than anyone</h2>
+             <h3 class="author author_style-italic author_place_two-columns">Rickie Baroch - June 6, 2019</h3>
+             <p class="two-columns__subtitle_size_l">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
             </div>
-            <div class="two-columns__card-car">
-              <img src="./image/Bitmap 111.jpg" alt="car">
-              <div class="two-columns__cars-text">
-                <button class="button button_place-grid button_size_l">Vehicle</button>
-                <h2 class="two-columns__cars-title">One of Saturn’s largest rings may be newer than anyone</h2>
-                <h3 class="author author_style-italic">Rickie Baroch - June 6, 2019</h3>
-                <p class="two-columns__cars-subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+           </div>
+           <div class="two-columns__card-car">
+             <img class="two-columns__card-img" src="./image/Bitmap2222.png" alt="car">
+             <div class="two-columns__cars-text">
+              <button class="button button_size_l button_two-columns_cars">Vehicle</button>
+              <h2 class="two-columns__title_size_l">One of Saturn’s largest rings may be newer than anyone</h2>
+              <h3 class="author author_style-italic author_place_two-columns">Rickie Baroch - June 6, 2019</h3>
+              <p class="two-columns__subtitle_size_l">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+             </div>
+             </div>
+             <div class="two-columns__card-car">
+               <img class="two-columns__card-img" src="./image/Bitmap 111.jpg" alt="car">
+               <div class="two-columns__cars-text">
+                <button class="button button_size_l button_two-columns_cars">Vehicle</button>
+                <h2 class="two-columns__title_size_l">One of Saturn’s largest rings may be newer than anyone</h2>
+                <h3 class="author author_style-italic author_place_two-columns">Rickie Baroch - June 6, 2019</h3>
+                <p class="two-columns__subtitle_size_l">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+                </div>
               </div>
               <div class="two-columns__card-car">
-                <img src="./image/Bitmap0000.png" alt="car">
-                <div class="two-columns__cars-text">
-                  <button class="button button_place-grid button_size_l">Vehicle</button>
-                  <h2 class="two-columns__cars-title">One of Saturn’s largest rings may be newer than anyone</h2>
-                  <h3 class="author author_style-italic">Rickie Baroch - June 6, 2019</h3>
-                  <p class="two-columns__cars-subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+                 <img class="two-columns__card-img" src="./image/Bitmap0000.png" alt="car">
+                 <div class="two-columns__cars-text">
+                  <button class="button button_size_l button_two-columns_cars">Vehicle</button>
+                  <h2 class="two-columns__title_size_l">One of Saturn’s largest rings may be newer than anyone</h2>
+                  <h3 class="author author_style-italic author_place_two-columns">Rickie Baroch - June 6, 2019</h3>
+                  <p class="two-columns__subtitle_size_l">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+                 </div>
                 </div>
                 <div class="two-columns__card-car">
-                  <img src="./image/Bitmap666.png" alt="car">
-                  <div class="two-columns__cars-text">
-                    <button class="button button_place-grid button_size_l">Vehicle</button>
-                    <h2 class="two-columns__cars-title">One of Saturn’s largest rings may be newer than anyone</h2>
-                    <h3 class="author author_style-italic">Rickie Baroch - June 6, 2019</h3>
-                    <p class="two-columns__cars-subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-                  </div>
-        </div>
+                   <img class="two-columns__card-img" src="./image/Bitmap666.png" alt="car">
+                   <div class="two-columns__cars-text">
+                    <button class="button button_size_l button_two-columns_cars">Vehicle</button>
+                    <h2 class="two-columns__title_size_l">One of Saturn’s largest rings may be newer than anyone</h2>
+                    <h3 class="author author_style-italic author_place_two-columns">Rickie Baroch - June 6, 2019</h3>
+                    <p class="two-columns__subtitle_size_l">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+                   </div>
+                </div>
       </div>
       <nav class="two-columns__preview">
         <div class="two-columns__preview-card">
-          <img class="two-columns__preview-image" src="" alt="image">
-          <h2 class="two-columns__preview-title"></h2>
-          <h3 class="author author_style-italic"></h3>
-          <p class=""></p>            <!---->
+          <img class="two-columns__preview-image" src="./image/Bitmap 55.png" alt="image">
+          <h2 class="two-columns__title_size_s">Leon Hunt</h2>
+          <h3 class="author author_style-italic">Food & cooking bloger</h3>
+          <p class="two-columns__subtitle_size_s">Hi, I'm Leon. Cooking is the way I express my creative side to the world. Welcome to my Kitchen Corner on…</p>
+          <button class="button_preview">Continue Reading</button>
         </div>
         <ul class="two-columns__preview-item">
-          <li><img class="two-columns__item-img" src="./image/Bitmap 55.png" alt="car"></li>
-          <li><img class="two-columns__item-img" src="./image/Bitmap 22.png" alt="car"></li>
-          <li><img class="two-columns__item-img" src="./image/Bitmap 33.png" alt="car"></li>
-          <li><img class="two-columns__item-img" src="./image/Bitmap 44.png" alt="car"></li>
+          <h2 class="two-columns__title_size_s">Popular posts</h2>
+          <li class="two-columns__preview-items">
+            <button class="button button_size_l button_place_preview-item">Vehicle</button>
+            <img class="two-columns__item-img" src="./image/Bitmap 22.png" alt="car">
+            <p class="two-columns__subtitle_size_m">One of Saturn's largest rings may be never than anyone</p>
+            <h3 class="author author_style-italic">Rickie Baroch - June 6, 2019</h3>
+          </li>
+          <li class="two-columns__preview-items">
+            <button class="button button_size_l button_place_preview-item">Vehicle</button>
+            <img class="two-columns__item-img" src="./image/Bitmap 33.png" alt="car">
+            <p class="two-columns__subtitle_size_m">One of Saturn's largest rings may be never than anyone</p>
+            <h3 class="author author_style-italic">Rickie Baroch - June 6, 2019</h3>
+          </li>
+          <li class="two-columns__preview-items">
+            <button class="button button_size_l button_place_preview-item">Vehicle</button>
+            <img class="two-columns__item-img" src="./image/Bitmap 44.png" alt="car">
+            <p class="two-columns__subtitle_size_m">One of Saturn's largest rings may be never than anyone</p>
+            <h3 class="author author_style-italic">Rickie Baroch - June 6, 2019</h3>
+          </li>
         </ul>
         <div class="two-columns__preview-vidgets">
-          <h2 class="two-columns__preview-item-title">Instagram</h2>
+          <h2 class="two-columns__title_size_s">Instagram</h2>
+          <div class="two-columns__preview-vidgets-grid">
           <img class="two-columns__vidgets-img" src="./image/Rectangle Copy 42.png" alt="car">
           <img class="two-columns__vidgets-img" src="./image/Rectangle Copy 23.png" alt="car">
           <img class="two-columns__vidgets-img" src="./image/Rectangle Copy 43.png" alt="car">
           <img class="two-columns__vidgets-img" src="./image/Rectangle Copy 24.png" alt="car">
           <img class="two-columns__vidgets-img" src="./image/Rectangle Copy 44.png" alt="car">
           <img class="two-columns__vidgets-img" src="./image/Rectangle Copy 30.png" alt="car">
-          <button class="button_preview"><img src="./image/logo.svg" alt="icon"> instagram</button>
+          </div>
+          <button class="button_preview"><img class="button_preview-icon" src="./image/logo.svg" alt="icon">instagram</button>
         </div>
       </nav>
+      </div>
     </section>
+                          <!--TWO-COLUMNS-->
   </body>
 </div>
 </html>
