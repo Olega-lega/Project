@@ -4,3 +4,12 @@
   top: 20px;
   box-sizing: border-box;
 }
+
+.button_place_preview-item:hover {
+  border: 1px solid #232323;
+}
+
+.button_place_preview-item:active {
+  background-color: plum;
+  border: 1px solid #4a90e2;
+}

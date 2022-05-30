@@ -1,0 +1,16 @@
+.form_theme_dark {
+  width: 270px;
+  height: 234px;
+}
+
+.form-title_theme_dark {
+  margin-bottom: 38px;
+}
+
+.form-input_theme_dark {
+  background-color: #373737;
+  }
+
+.form-input_theme_dark:last-of-type {
+  margin-top: 0;
+}

@@ -1,0 +1,15 @@
+.button_place_header {
+  font-size: 29px;
+  line-height: 17px;
+  color: #ffffff;
+  font-weight: 400;
+  }
+
+  .button_place_header:hover {
+    border: 1px solid #fff;
+  }
+  
+  .button_place_header:active {
+    background-color: plum;
+    border: 1px solid #4a90e2;
+  }

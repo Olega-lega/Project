@@ -1,0 +1,12 @@
+.button_palce_two-columns_cars {
+  margin: 30px 0 20px 30px;
+}
+ 
+.button_palce_two-columns_cars:hover {
+  border: 1px solid #232323;
+}
+
+.button_palce_two-columns_cars:active {
+  background-color: plum;
+  border: 1px solid #4a90e2;
+}

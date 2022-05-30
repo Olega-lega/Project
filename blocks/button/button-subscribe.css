@@ -1,4 +1,4 @@
-.button_preview {
+.button-subscribe {
   width: 270px;
   height: 50px;
   background-color: #232323;
@@ -13,4 +13,14 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
+}
+
+.button-subscribe:hover {
+  border: solid 2px white;
+}
+
+.button-subscribe:active {
+  background-color: #fff;
+  color: #232323;
+  border: solid 2px #232323;
 }
